@@ -1,0 +1,106 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/***************** Title Section *********************/
+#title {
+  background-color: hsl(217, 28%, 15%);
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 50px 70px 0px 70px;
+}
+
+.intro-image {
+  margin-top: 30px;
+  width: 50%;
+}
+
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/***************** Introduction Section *********************/
+#intro-section {
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+}
+
+.introduction {
+  padding: 40px 15px 20px 15px;
+  top: 575px;
+  left: 400px;
+  position: absolute;
+  z-index: 1;
+}
+
+.background-image {
+  margin-top: 85px;
+  width: 1350px;
+  height: 350px;
+  margin-right: 50px;
+  position: relative;
+}
+
+.app-intro {
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.btn-info {
+  font-size: 0.8rem;
+  padding: 12px 75px;
+  border: 0 none;
+  font-weight: 700;
+  border-radius: 24px;
+  margin-top: 12px;
+}
+
+/***************** Features Section *********************/
+#features {
+  background-color: hsl(218, 28%, 13%);
+  text-align: center;
+  padding: 30px 40px 30px 40px;
+}
+
+.feature-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.feature-container {
+  padding: 10px 140px 10px 140px;
+}
+
+.feature-title {
+  margin-top: 15px;
+}
+
+.row {
+  margin-bottom: 70px;
+}
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
