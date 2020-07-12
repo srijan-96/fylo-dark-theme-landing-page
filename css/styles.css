@@ -2,13 +2,21 @@ body {
   overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
+  background-color: hsl(216, 53%, 9%);
 }
 
 h1 {
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 h3 {
@@ -16,6 +24,13 @@ h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   line-height: 1.5;
+}
+
+h6 {
+  font-size: 0.8em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
 }
 
 /***************** Title Section *********************/
@@ -99,7 +114,188 @@ h3 {
   margin-bottom: 70px;
 }
 
-/* * {
+/*************** Productivity Section **************8*/
+#productivity-reference {
+  background-color: hsl(218, 28%, 13%);
+  text-align: left;
+}
+
+.productive-image {
+  width: 100%;
+}
+
+.productivity-desc {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.productivity-title {
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.fylo-work {
+  color: hsl(176, 68%, 64%);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+/******************* Testimonial Section ****************/
+#testimonials {
+  background-color: hsl(218, 28%, 13%);
+  padding: 30px 40px 30px 40px;
+  height: 600px;
+}
+
+.card {
+  background-color: hsl(219, 30%, 18%);
+  padding: 20px 10px 0px 10px;
+}
+
+.profile {
+  width: 10%;
+  border-radius: 24px;
+  float: left;
+  margin-right: 10px;
+}
+
+.source-title {
+  font-size: 0.5rem;
+  line-height: 1;
+}
+
+.testimonial-title {
+  font-size: 0.9rem;
+}
+
+.quote-image {
+  position: absolute;
+  left: 100px;
+  top: 2200px;
+}
+
+.testimonial-deck {
+  position: relative;
+  z-index: 1;
+}
+
+.get-access {
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+  padding: 40px 10px 20px 10px;
+  width: 750px;
+  height: 220px;
+  margin-left: 190px;
+  position: absolute;
+  z-index: 1;
+  top: 2600px;
+}
+
+.email-textbox {
+  border-radius: 24px;
+  border: 0;
+  height: 40px;
+  width: 400px;
+  font-size: .8rem;
+  padding: 20px;
+  margin-top: 15px;
+  float: left;
+  margin-left: 50px;
+}
+
+.access-text {
+  margin-top: 15px;
+  font-size: 0.8rem;
+}
+
+.btn-access {
+  height: 40px;
+  width: 180px;
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 60px;
+}
+
+/********************** Footer Section *****************/
+#footer {
+  position: relative;
+  background-color: hsl(216, 53%, 9%);
+  padding: 30px 30px;
+  text-align: left;
+}
+
+#social-section {
+  background-color: hsl(216, 53%, 9%);
+}
+
+.footer-logo {
+  margin-top: 100px;
+  margin-left: 120px;
+  width: 12%;
+}
+
+.address-text {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.location, .contact, .about-us, .contact-us {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.location {
+  width: 300px;
+  height: 100px;
+}
+
+.contact {
+  width: 250px;
+  height: 100px;
+}
+
+.about-us, .contact-us {
+  width: 100px;
+  height: 150px;
+}
+
+.contact-icon {
+  float: left;
+  margin-right: 20px;
+}
+
+.gps {
+  margin-bottom: 20px;
+}
+
+.social {
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.social-icon {
+  float: left;
+  margin-right: 30px;
+}
+
+footer {
+  margin-top: 200px;
+}
+
+
+/********************** CSS trick to display outlines ************************/
+
+/*
+
+* {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;
