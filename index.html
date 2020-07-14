@@ -42,11 +42,11 @@
 
 
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-fluid nav-container">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">
-          <img src="images/logo.svg" width="70%" class="d-inline-block align-top" alt="" loading="lazy">
+          <img src="images/logo.svg" width="70%" class="d-inline-block align-top nav-logo" alt="" loading="lazy">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
@@ -69,13 +69,20 @@
 
 
   <section id="intro-section">
-    <img class="background-image" src="images/bg-curvy-desktop.svg" alt="intro">
+    <img class="background-image-desktop" src="images/bg-curvy-desktop.svg" alt="intro">
+      <img class="background-image-mobile" src="images/bg-curvy-mobile.svg" alt="intro">
     <div class="container">
       <div class="introduction">
-        <h1>All your files in one secure location,<br />
+        <h1 class="intro-header">All your files in one secure location,<br />
           accessible anywhere.</h1>
         <p class="app-intro">Fylo stores all your most important files in one secure location.<br />Access them wherever
           you need, share and collaborate with<br />friends family, and co-workers.</p>
+
+          <h1 class="intro-header-mobile">All your files in one secure<br />location,
+            accessible<br />anywhere.</h1>
+          <p class="app-intro-mobile">Fylo stores all your most important files in<br/>one secure location.Access them wherever</br>
+            you need, share and collaborate with friends<br />family, and co-workers.</p>
+
 
         <button type="button" class="btn btn-info btn-lg">Get Started</button>
 
@@ -88,33 +95,41 @@
     <div class="container-fluid feature-container">
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-feature">
           <img class="feature-icon" src="images/icon-access-anywhere.svg" alt="feature-1">
           <h3 class="feature-title">Access your files, anywhere</h3>
           <p class="feature-desc">The ability to use a smartphone, tablet, or computer</br>to access your account means your
             files follow you</br>everywhere.</p>
+          <p class="feature-desc-mobile">The ability to use a smartphone, tablet, or</br>computer to access your account means your</br>
+              files follow you everywhere.</p>
 
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-feature">
           <img class="feature-icon" src="images/icon-security.svg" alt="feature-2">
           <h3 class="feature-title">Security you can trust</h3>
           <p class="feature-desc">2-factor authentication and user-controlled encryption are</br>just a couple of the security
             features we allow to help</br>secure your files.</p>
+          <p class="feature-desc-mobile">2-factor authentication and user-controlled</br>encryption are just a couple of the security</br>
+            features we allow to help secure your files.</p>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-feature">
           <img class="feature-icon" src="images/icon-collaboration.svg" alt="feature-3">
           <h3 class="feature-title">Real-time collaboration</h3>
           <p class="feature-desc">Securely share files and folders with friends, family and</br>colleagues for live collaboration.
             No email attachments</br>required.</p>
+          <p class="feature-desc-mobile">Securely share files and folders with friends,</br>family and colleagues for live collaboration.
+            No</br>email attachments required.</p>
 
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-feature">
           <img class="feature-icon" src="images/icon-any-file.svg" alt="feature-4">
           <h3 class="feature-title">Store any type of file</h3>
           <p class="feature-desc">Whether you're sharing holidays photos or work</br>documents, Fylo has you covered allowing for all
             file</br>types to be securely stored and shared.</p>
+          <p class="feature-desc-mobile">Whether you're sharing holidays photos or work</br>documents, Fylo has you covered allowing for all</br>
+            file types to be securely stored and shared.</p>
         </div>
       </div>
     </div>
@@ -125,16 +140,25 @@
     <div class="container-fluid feature-container">
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-productivity">
           <img class="productive-image" src="images/illustration-stay-productive.png" alt="productivity-icon">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-productivity">
           <h1 class="productivity-title">Stay productive,</br>wherever you are</h1>
+          <h1 class="productivity-title-mobile">Stay productive, wherever you are</h1>
+
           <p class="productivity-desc">Never let location be an issue when accessing your files. Fylo has you</br>covered for all of your file
             storage needs.</p>
           <p class="productivity-desc">Securely share files and folders with friends, family and colleagues for live</br>collaboration. No email
             attachments required.
           </p>
+
+          <p class="productivity-desc-mobile">Never let location be an issue when accessing</br>your files. Fylo has you covered for all of your</br>file
+            storage needs.</p>
+          <p class="productivity-desc-mobile">Securely share files and folders with friends,</br>family and colleagues for live collaboration. No</br>email
+            attachments required.
+          </p>
+
           <a class="fylo-work" href="#">See how Fylo works
             <img class="arrow-image" src="images/icon-arrow.svg" style="width:2.5%;" alt="">
           </a>
@@ -223,9 +247,9 @@
   <section id="footer">
     <img class="footer-logo" src="images/logo.svg" width="10%" class="d-inline-block align-top" alt="" loading="lazy">
 
-    <div class="container test-id">
+    <div class="container">
       <div class="location">
-        <i class="fas fa-map-marker-alt contact-icon gps"></i>
+        <i class="fas fa-map-marker-alt contact-social-icon gps-icon"></i>
         <p class="address-text">
           Lorem ipsum dolor sit amet, consectetur</br>adipiscing elit, sed do eiusmod tempor</br>ncididunt ut labore et
           dolore magna aliqua
@@ -233,10 +257,10 @@
       </div>
 
       <div class="contact">
-        <i class="fas fa-phone-volume contact-icon"></i>
+        <i class="fas fa-phone-volume contact-social-icon"></i>
         <p class="address-text">+1-543-123-4567</p>
 
-        <i class="fas fa-envelope contact-icon"></i>
+        <i class="fas fa-envelope contact-social-icon"></i>
         <p class="address-text">example@fylo.com</p>
       </div>
 
@@ -256,9 +280,9 @@
       </div>
 
       <div class="social">
-        <i class="fab fa-facebook-f social-icon"></i>
-        <i class="fab fa-twitter social-icon"></i>
-        <i class="fab fa-instagram social-icon"></i>
+        <i class="fab fa-facebook-f contact-social-icon"></i>
+        <i class="fab fa-twitter contact-social-icon"></i>
+        <i class="fab fa-instagram contact-social-icon"></i>
       </div>
 
     </div>
